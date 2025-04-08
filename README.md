@@ -186,9 +186,11 @@ Enhanced my knowledge of using semantic HTML elements for better accessibility a
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Jonathan Peters](https://qms85.github.io/MyPortfolio/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@DJJonnas85](https://www.twitter.com/DJJonnas85)
+- Linkedin - [Jonathan Peters](https://www.linkedin.com/in/2jonathanpeters)
+- Facebook - [Jonathan Peters](https://www.facebook.com/2jonathanpeters
 
 
 
