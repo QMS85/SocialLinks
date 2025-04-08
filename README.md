@@ -13,13 +13,13 @@ Users should be able to:
 ### Screenshots
 
 #### Desktop View
-<a href="#">
+<a href="https://qms85.github.io/SocialLinks/">
 <img src="social.png" alt="social-links-profile-desktopview">
 </a>
 
 
 #### Mobile View
-<a href="#">
+<a href="https://qms85.github.io/SocialLinks/">
 <img src="social2.png" alt="social-links-profile-mobileview">
 </a>
 
@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/QMS85/SocialLinks.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://qms85.github.io/SocialLinks/)
 
 ## My process
 
