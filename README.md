@@ -163,17 +163,18 @@ Enhanced my knowledge of using semantic HTML elements for better accessibility a
     Test with screen readers
 
 4. JavaScript Integration
-```// Add interactive features like:
+```
+// Add interactive features like:
 - Form validation
 - Dynamic theme switching
 - Animated transitions
-- API integration for real social media links```
+- API integration for real social media links
+```
 
 5. Build Tools & Optimization
     Learn Sass/SCSS for better CSS organization
     Explore CSS-in-JS solutions
     Study performance optimization techniques
-
 
 ### Useful Resources
 1. MDN Web Docs - Comprehensive documentation for HTML, CSS, and JavaScript
