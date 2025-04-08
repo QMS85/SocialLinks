@@ -1,93 +1,196 @@
-# Frontend Mentor - Social links profile
+# Frontend Mentor - Social links profile solution
 
-![Design preview for the Social links profile coding challenge](./preview.jpg)
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Overview
 
-Thanks for checking out this front-end coding challenge.
+### The challenge
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML and CSS.**
-
-## The challenge
-
-Your challenge is to build out this social links profile and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to: 
+Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Screenshots
 
-## Where to find everything
+#### Desktop View
+<a href="#">
+<img src="social.png" alt="social-links-profile-desktopview">
+</a>
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+#### Mobile View
+<a href="#">
+<img src="social2.png" alt="social-links-profile-mobileview">
+</a>
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+### Links
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+## My process
 
-## Building your project
+Here's my process for completing the Social Links Profile project:
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+1. Project Setup and Planning
+Analyzed the design requirements from the style guide
+Set up the basic project structure with HTML and CSS files
+Planned the responsive breakpoints (375px mobile, 1440px desktop)
+2. HTML Structure:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Used semantic HTML5 elements -->
+  <main class="profile-card">
+    <!-- Organized content hierarchically -->
+    <!-- Added proper accessibility attributes -->
+  </main>
+</html>
+```
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+3. CSS Architecture:
+```
+:root {
+  /* Implemented CSS custom properties for colors */
+  --color-green: hsl(75, 94%, 57%);
+  /* ...other color variables... */
+}
 
-## Deploying your project
+/* Used mobile-first approach */
+/* Implemented flexbox for layouts */
+/* Added smooth transitions for interactions */
+```
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+4. Key Development Steps
+    1. Base Styles:
+        Set up typography with Inter font
+        Implemented color system
+        Added reset styles
+    2. Component Development:
+        Built profile card container
+        Styled profile image and text
+        Created social links buttons
+    3. Responsive Design:
+        Implemented mobile layout first
+        Added desktop breakpoint adjustments
+        Tested various screen sizes
+    4. Interactive Elements:
+        Added hover states for links
+        Ensured smooth transitions
+        Tested focus states for accessibility
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### Built with
 
-## Create a custom `README.md`
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### What I learned
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+1. **CSS Custom Properties**
+```css
+:root {
+  --color-green: hsl(75, 94%, 57%);
+  --color-grey-900: hsl(0, 0%, 8%);
+}
+```
+Using CSS variables made it easier to maintain consistent colors throughout the project and would make future theme changes simpler.
 
-## Submitting your solution
+2. **Flexbox Layout**
+```css
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+```
+Deepened my understanding of flexbox for creating responsive layouts, particularly using `gap` property for consistent spacing.
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+3. **Interactive States**
+```css
+.social-link:hover {
+  background-color: var(--color-green);
+  transition: all 0.3s ease;
+}
+```
+Learned how to create smooth transitions for hover states and ensure good user feedback for interactive elements.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+4. **Mobile-First Approach**
+```css
+.profile-card {
+  width: 100%;
+  max-width: 375px;
+}
 
-## Sharing your solution
+@media screen and (min-width: 1440px) {
+  .profile-card {
+    max-width: 384px;
+  }
+}
+```
+Practiced building responsive designs starting with mobile views and scaling up, which resulted in cleaner CSS.
 
-There are multiple places you can share your solution:
+5. **Semantic HTML**
+Enhanced my knowledge of using semantic HTML elements for better accessibility and SEO:
+```html
+<main class="profile-card">
+  <h1 class="profile-name">Jessica Randall</h1>
+</main>
+```
 
-1. Share your solution page in the **#finished-projects** channel of our [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+### Continued Development
+1. Advanced CSS Layouts
+    Master CSS Grid for more complex layouts
+    Explore CSS Container Queries for more granular responsive design
+    Practice combining Flexbox and Grid for sophisticated layouts
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+2. CSS Architecture
+```
+/* Learn BEM methodology */
+.profile-card {}
+.profile-card__image {}
+.profile-card__link--active {}
+```
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+3. Accessibility Enhancements
+    Learn ARIA attributes
+    Practice keyboard navigation
+    Study color contrast requirements
+    Test with screen readers
 
-## Got feedback for us?
+4. JavaScript Integration
+```// Add interactive features like:
+- Form validation
+- Dynamic theme switching
+- Animated transitions
+- API integration for real social media links```
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+5. Build Tools & Optimization
+    Learn Sass/SCSS for better CSS organization
+    Explore CSS-in-JS solutions
+    Study performance optimization techniques
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+### Useful Resources
+1. MDN Web Docs - Comprehensive documentation for HTML, CSS, and JavaScript
+2. CSS Tricks - Great for learning advanced CSS techniques and layouts
+3. Frontend Mentor - More challenges to practice your skills
+4. Web.dev - Google's resource for modern web development
+5. Accessibility Developer Guide - Learn about web accessibility
+
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@DJJonnas85](https://www.twitter.com/DJJonnas85)
+
+
+
+
+
+
